@@ -5,10 +5,10 @@ function testFunc() {
 }
 
 function superbowlWin(team){
-  let yearResults = team.find(function(result) {
-    return yearResults.result == "W"
+  let yearResult = team.find(function(result) {
+    return result.result == "W"
    })
-   if (yearResults){
-     return result.year
+   if (yearResult){
+     return yearResult.year
    }
 }
